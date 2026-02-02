@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+.header-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 20px 0;
+  background-color: #e0dddd;
+  box-shadow: 1px 1px 50px 1px black;
+}
+.search-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+#search-input {
+  width: 250px;
+  height: 40px;
+  background-color: rgb(8, 2, 2);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding-left: 20px;
+  margin-left: 5px;
+}
+.flag {
+  align-self: center;
+  margin-bottom: 10px;
+  width: 150px;
+  height: 100px;
+}
+.cards-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+  gap: 10px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.main-content {
+  width: 100%;
+  d;
+}
+.cards-area.one {
+  background-color: rgb(241, 241, 213);
+  border-bottom: 5px solid black;
+}
+.cards-area.two {
+  background-color: rgb(151, 127, 127);
+}
+.card {
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(123, 152, 190);
+  width: 350px;
+  box-shadow: 1px 1px 5px;
+}
+.fa-solid {
+  font-size: 16px;
+}
+.country-name {
+  align-self: center;
+}
+.details > div {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+.country-name {
+  font-size: 16px;
+}
