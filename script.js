@@ -78,7 +78,6 @@ async function getCountry(country) {
     getNeighbours(nCountry);
   });
 
-  document.querySelector(".two").textContent = "";
 }
 
 searchInput.addEventListener("keypress", (event) => {
